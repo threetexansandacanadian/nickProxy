@@ -22,9 +22,5 @@ body {
 }
 
 img {
-  max-height: 400px;
-}
-
-.photo {
-  width: 75%;
+  max-height: 500px;
 }
