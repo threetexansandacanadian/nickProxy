@@ -15,7 +15,7 @@
     "start": "nodemon server",
     "start-production": "node server/index.js",
     "setup": "npm install",
-    "launch": npm run-script start-production"
+    "launch": "npm run-script start-production"
   },
   "dependencies": {
     "express": "^4.16.4",
