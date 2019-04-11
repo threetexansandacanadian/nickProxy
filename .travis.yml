@@ -5,6 +5,9 @@ node_js:
 services:
   - docker
 
+before_install:
+  - npm i -g npm@6.13.0
+
 after_deploying:
   - echo "done deploying"
 
