@@ -1,3 +1,7 @@
+body {
+  background-color: red;
+}
+
 #pageContent {
   display:flex;
   flex-direction: column;

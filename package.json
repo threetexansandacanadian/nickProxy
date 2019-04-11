@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "nodemon server",
-    "start-production": "node server/index.js &",
+    "start-production": "node server/index.js",
     "setup": "npm install",
     "launch": "npm run-script start-production"
   },
