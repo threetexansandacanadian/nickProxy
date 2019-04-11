@@ -1,21 +1,6 @@
 language: node_js
 node_js:
-  -"6"
-
-services:
-  - docker
-
-after_deploying:
-  - echo "done deploying"
-
-deploy:
-  provider: elasticbeanstalk
-  access_key_id: $ACCESSKEYID
-  secret_access_key:
-    secure: "$SECRETACCESSKEY"
-  region: "ca-central-1"  
-  app: "elastic-beanstalk-tutorial"
-  env: "elastic-beanstalk-tutorial-dev"
-  bucket_name: "elasticbeanstalk-ca-central-1-882371129764"
-  on:
-    branch: master
+  - "10.6.0 "
+before_script:
+  - "npm run-script setup"
+  - "npm run-script launch"
