@@ -15,12 +15,15 @@ body {
   grid-column-gap: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   #root {
-    grid-row: 1 / -1
+    grid-row-start: 1;
+    grid-column: 1 / -1;
   }
   #prodDesc {
-    grid-row: 2 / -1;
+    grid-row-start: 2;
+    grid-column: 1 / -1;
+    margin-top: 10px;
   }
 }
 
