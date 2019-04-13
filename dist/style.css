@@ -26,9 +26,6 @@ body {
   color: #ffffff;
 }
 
-.names {
-  font-size: 2em;
-}
 .matthew {
   grid-column-start: 1;
 }
@@ -44,6 +41,10 @@ body {
 
 a {
   color: #ffffff;
+}
+
+.names a {
+  font-size: 2em;
 }
 
 @media (max-width: 900px) {
