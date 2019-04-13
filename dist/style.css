@@ -14,10 +14,15 @@ body {
   grid-column-gap: 20px;
 }
 
-img {
-  max-width: 700px;
+@media (max-width: 600px) {
+  #root {
+    grid-row-start: 2;
+  }
+  #prodDesc {
+    grid-row-start: 3;
+  }
 }
 
-#relatedProducts {
-  justify-self: center;
+img {
+  max-width: 700px;
 }
