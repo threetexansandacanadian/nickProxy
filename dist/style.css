@@ -3,25 +3,21 @@ body {
 }
 
 #pageContent {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 #picsAndDesc {
-  width: 100%;
-  display:flex;
-  align-items: center;
-  justify-content: space-around;
   margin: 20px;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  grid-column-gap: 20px;
 }
 
-#prodDesc, #root {
-  width: 45vw;
+img {
+  max-width: 700px;
 }
 
-.photo {
-  max-height: 400px;
-  max-width: 500px;
+#relatedProducts {
+  justify-self: center;
 }
